@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body >
+
+	<link rel="stylesheet" type="text/css" href="Forms_css.css">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<font color="black">
+	<form>
+		<h1>QUIZOPEDIA Sign Up</h1>
+		<div>
+		<hr>
+		<br>
+		<img id="user" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUlg_uj396evqe0nGSwtkmYHHPc7iJ7tDrsOYTbgoqjFYMzwuhag&s">
+		<span id="a">
+		<label >Enter your Email ID</label><br>
+		<input type="Email" placeholder="Email ID" required><br>
+		<img id="pass" src="data:image/png;base64,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"
+		<label for="Password">Enter your Password</label><br>
+		<input type="password" placeholder="Password" required><br>
+		<input type="password" placeholder="Confirm Password" required><br></span>
+		<br><hr id="1"><br>
+
+		
+
+		<label for="phone">Enter your phone number:</label>
+		<input type="tel" id="phone" name="phone" pattern="-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+		<small>Format:123-456-7890</small>
+
+		<p>Select your Gender:</p>
+		<input type="radio" id='Male'name="Gender" value="Male">
+		<label for="Male">Male</label>
+        <input type="radio" id='Female'name="Gender" value="Female">
+		<label for="Female">Female</label><br><br>
+		<label for="file">Choose your Profile Picture:</label>
+		<input type="file" accept="image/jpg , image/jpeg ,image/png"><br><br>
+		<label for="start">Date of Birth :</label>
+        <input type="date" value="dd-mm-yyyy"><br><br>
+<label for="course-select">Choose a Course:</label>
+
+<select id="course-select">
+    <option value="B.Tech">B.Tech</option>
+    <option value="M.Tech">M.Tech</option>
+    <option value="Ph.D">Ph.D</option>
+    <label for="url">Search:</label>
+
+</select>
+<br><br>
+       <label id="l" for="checkbox"><a href="Terms and Conditions.html">Accept Terms & Conditions:</a></label>
+       <input type="checkbox">
+       <span id="button">
+       	<input type="button" id="s" value="Sign Up">
+       </span>
+       </div>
+
+</form>
+</font>
+</body>
+</html>	

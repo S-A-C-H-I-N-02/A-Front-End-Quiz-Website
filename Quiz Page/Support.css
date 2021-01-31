@@ -1,0 +1,12 @@
+body
+{
+	font-family: 'Pacifico', cursive;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEieSSd0wjXzP05wgHEKsL7Df8jQC9YW2WPMgXFZVEGWrRYMafQ&s");
+}
+h1
+{
+	text-align: center;
+	color:black;
+	padding-top: 80px;
+	font-size: 70px;
+}
